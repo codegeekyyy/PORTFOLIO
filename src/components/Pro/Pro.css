@@ -1,0 +1,85 @@
+.Projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    margin: 80px 170px;
+  }
+  
+  .project-title {
+    position: relative;
+  }
+  
+  .project-title h1 {
+    padding: 0 30px;
+    font-size: 80px;
+    font-weight: 600;
+  }
+  
+  .project-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -3;
+  }
+  
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin-bottom: 80px;
+  }
+  
+  .projects-format {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    height: 400px; /* Adjust card height as needed */
+    color: white;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.4s ease-in-out;
+    background: 2px solid white;
+
+  }
+  
+  .projects-format:hover {
+    transform: scale(1.05);
+    background: 2px solid white;
+  }
+  
+  .project-content {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for text */
+    border-radius: 10px 10px 0 0;
+    background: 2px solid white;
+  }
+  
+  .project-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .project-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project-content p {
+    font-size: 16px;
+  }
+  
+  .projects-readmore {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .projects-readmore img {
+    width: 20px;
+    height: 20px;
+  }
+  

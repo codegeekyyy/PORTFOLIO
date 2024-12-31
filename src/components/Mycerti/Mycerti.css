@@ -1,0 +1,88 @@
+.Certificates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    margin: 80px 170px;
+  }
+  
+  .Certificate-title {
+    position: relative;
+  }
+  
+  .Certificate-title h1 {
+    padding: 0 30px;
+    font-size: 80px;
+    font-weight: 600;
+  }
+  
+  .Certificate-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -3;
+  }
+  
+  .certificates-container {
+    display: flex; /* Horizontal layout */
+    flex-direction: row; /* Row direction */
+    justify-content: center; /* Center align */
+    align-items: flex-start; /* Align at the top */
+    gap: 40px; /* Space between cards */
+    margin-bottom: 80px;
+    flex-wrap: wrap; /* Allow wrapping to next line if needed */
+  }
+  
+  .certificate-format {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 500px; /* Adjust width */
+    height: 300px; /* Adjust height */
+    color: white;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.4s ease-in-out;
+    background-size: contain; /* Preserve original size */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling */
+  }
+  
+  .certificate-format:hover {
+    transform: scale(1.05);
+    background:2px  rgb(238,174,202);
+  }
+  
+  .certificate-content {
+    padding: 20px;
+    background: rgb(238,174,202 0.6); /* Semi-transparent background for text */
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .certificate-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .certificate-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .certificate-content p {
+    font-size: 16px;
+  }
+  
+  .certificate-readmore {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .certificate-readmore img {
+    width: 20px;
+    height: 20px;
+  }
+  

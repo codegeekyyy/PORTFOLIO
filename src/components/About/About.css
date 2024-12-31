@@ -1,0 +1,71 @@
+.abt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80%;
+    margin: 80px 170px;
+}
+.abt-title{
+    position: relative;
+}
+.abt-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.abt-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -3;
+    height: 50px; /* Reduced size */
+}
+
+.abt-section{
+    display: flex;
+    gap: 80px;
+}
+.abt-section .abt-left img {
+    width: 500px; /* Set desired size */
+    height: 500px; /* Match the width for a square */
+    border-radius: 50%; /* Ensure no rounded corners */
+    object-fit: cover; /* Ensures the image fills the square without distortion */
+}
+.abt-right{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.abt-para{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.abt-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.abt-skill{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    transition: 0.3s;
+}
+.abt-skill p{
+    min-width: 150px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.abt-skill hr{
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
